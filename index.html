@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+  body{
+  background: black;
+  color: #eee;
+  }
+  
+  #intro{
+  padding:5px;
+  border:1px solid #333;
+  background:peachpuff;
+  margin-bottom:10px;
+  }
+
+  #kscopewrapper{
+  text-align:center;
+  width:100%;
+  float:left;
+  }
+
+  #sliders{
+  width:500px;
+  }
+
+  #selectors div{
+  float:left;
+  width:100%;
+  }
+</style>
+
+<body>
+  <div class='container'>
+    <div id='buttons'></div>
+    <div id='selectors'>
+      <div id='poly-selector'></div>
+      <div id='segment-selector'></div>
+    </div>
+    <div id='kscopewrapper'>
+      <svg id='chart'></svg>
+    </div>
+  </div>
+
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+  <script type="text/javascript" src="/static/libs/jquery-extras/iframeResizer/js/iframeResizer.contentWindow.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
